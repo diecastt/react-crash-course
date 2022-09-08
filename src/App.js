@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import { Navbar, NavbarBrand, Dropdown} from 'reactstrap';
 import './App.css';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <div className = "container">
           <NavbarBrand href = "/">Ristorante Con Fusion</NavbarBrand>
         </div>
+        <Dropdown className = "dark">Menu</Dropdown>
       </Navbar>
     </div>
   );
